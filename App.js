@@ -4,7 +4,7 @@ import { StyleSheet } from 'react-native';
 import Constants from 'expo-constants';
 import { WebView } from 'react-native-webview';
 import { WebViewMessages } from './Functions/webViewMessages';
-import { GetAuthToken } from './Functions/auth';
+import { GetAuthToken,ClearAuthToken } from './Functions/auth';
 import * as WebBrowser from 'expo-web-browser';
 import md5 from 'md5';
 
@@ -31,7 +31,11 @@ export default function App() {
 		(function() {
 			if ('${token}') {
 				localStorage.setItem('${tokenName}', '${token}');
-				alert('Token injektován do localStorage');
+			}
+			else
+			{
+				localStorage.removeItem('${tokenName}');
+				widow.reload();
 			}
 		})();
 		true;
@@ -75,7 +79,7 @@ export default function App() {
 				ref={webViewRef}
 				style={styles.webView}
 				source={{ uri: 'http://localhost:3001' }}
-				injectedJavaScript={token ? injectedJavaScript : undefined}
+				injectedJavaScript={injectedJavaScript}
 				onMessage={HandleWebViewMessage}
 			/>
 			<StatusBar style="dark" /> 
