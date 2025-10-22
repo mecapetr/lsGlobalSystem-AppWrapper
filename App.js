@@ -4,9 +4,10 @@ import { StyleSheet } from 'react-native';
 import Constants from 'expo-constants';
 import { WebView } from 'react-native-webview';
 import { WebViewMessages } from './Functions/webViewMessages';
-import { GetAuthToken,ClearAuthToken } from './Functions/auth';
+import { GetAuthToken } from './Functions/auth';
 import * as WebBrowser from 'expo-web-browser';
 import md5 from 'md5';
+import appJson from './app.json';
 
 export const tokenName = md5("ls_glPo_apttp_!@~`|=-rT98QhmZm713Dhfgk'aL§_-11!§_sys");
 
@@ -21,25 +22,36 @@ export default function App() {
 	useEffect(() => {
 		const LoadToken = async () => {
 			const storedToken = await GetAuthToken();
+			console.log(storedToken);
+
+			var js = "";
 			if(storedToken)
+			{
 				SetToken(storedToken);
-		};
-		LoadToken();
-	}, []);
-	  
-	const injectedJavaScript = `
-		(function() {
-			if ('${token}') {
-				localStorage.setItem('${tokenName}', '${token}');
+				js = `
+					(function() {
+						localStorage.setItem('${tokenName}', '${storedToken}');
+					})();
+					true;
+				`;
 			}
 			else
 			{
-				localStorage.removeItem('${tokenName}');
-				widow.reload();
+				js = `
+					(function() {
+						localStorage.removeItem('${tokenName}');
+						widow.reload();
+					})();
+					true;
+				`;
 			}
-		})();
-		true;
-	`;
+
+			webViewRef.current.injectJavaScript(js);
+
+		};
+		LoadToken();
+	}, []);
+
 
 	const HandleWebViewMessage = async (event) => {
 		try 
@@ -78,9 +90,11 @@ export default function App() {
 			<WebView
 				ref={webViewRef}
 				style={styles.webView}
-				source={{ uri: 'http://localhost:3001' }}
-				injectedJavaScript={injectedJavaScript}
+				source={{ uri: appJson.webViewUrl }}
 				onMessage={HandleWebViewMessage}
+				originWhitelist={['*']}
+				setSupportMultipleWindows={false}
+				onShouldStartLoadWithRequest={req => req.url === 'about:srcdoc' || req.url.startsWith('http')}
 			/>
 			<StatusBar style="dark" /> 
 		</>

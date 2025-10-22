@@ -39,6 +39,7 @@ export const SetAuthToken = async (token) => {
     }
     // Volitelné: přidej options, např. biometrické ověření při čtení
     // const options = { requireAuthentication: true, authenticationPrompt: 'Přihlaste se' };
+    console.log(TOKEN_KEY, token);
     await SecureStore.setItemAsync(TOKEN_KEY, String(token));
 }
 
