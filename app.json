@@ -48,8 +48,7 @@
 					"dark": {
 						"image": "./assets/splash_icon_au.png",
 						"backgroundColor": "#222222"
-					},
-					"imageWidth": 200
+					}
 				}
 			]
 		]
