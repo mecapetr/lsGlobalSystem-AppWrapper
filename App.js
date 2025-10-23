@@ -22,7 +22,6 @@ export default function App() {
 	useEffect(() => {
 		const LoadToken = async () => {
 			const storedToken = await GetAuthToken();
-			console.log(storedToken);
 
 			var js = "";
 			if(storedToken)

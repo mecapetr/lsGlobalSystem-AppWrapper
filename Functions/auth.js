@@ -39,7 +39,6 @@ export const SetAuthToken = async (token) => {
     }
     // Volitelné: přidej options, např. biometrické ověření při čtení
     // const options = { requireAuthentication: true, authenticationPrompt: 'Přihlaste se' };
-    console.log(TOKEN_KEY, token);
     await SecureStore.setItemAsync(TOKEN_KEY, String(token));
 }
 
@@ -58,6 +57,5 @@ export const GetAuthToken = async () => {
  */
 export const ClearAuthToken = async () => {
     await EnsureAvailable();
-    console.log("Clearing token");
     await SecureStore.deleteItemAsync(TOKEN_KEY);
 }
