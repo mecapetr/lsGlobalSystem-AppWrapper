@@ -7,26 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		10C20B6AE05A0D04FEF3F616 /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DC154A31C0A716ABF27EFA /* ExpoModulesProvider.swift */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
-		32DC7374655AA23B71F0C426 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 53142AEE5E20237078AEECBF /* PrivacyInfo.xcprivacy */; };
 		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
-		86CAF4B1BFC9C90736D1253E /* libPods-AstralUniversity.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FC17C1A46A4217E18966740 /* libPods-AstralUniversity.a */; };
+		4395BBE8DCA6BAB82346A7D3 /* libPods-AstralUniversity.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B243EBFC75D07AF70F6AC674 /* libPods-AstralUniversity.a */; };
+		7CF0E6FE21E66A4CFC49FD7C /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59609C24B62C61AA9A9B6AC2 /* ExpoModulesProvider.swift */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
+		CBDEC3CA9F84805F5E5CA1AA /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 75CFBCAF7ADDF7ECED4B25AA /* PrivacyInfo.xcprivacy */; };
 		F11748422D0307B40044C1D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11748412D0307B40044C1D9 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C075287ED82A0A2A5778372 /* Pods-AstralUniversity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AstralUniversity.debug.xcconfig"; path = "Target Support Files/Pods-AstralUniversity/Pods-AstralUniversity.debug.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* AstralUniversity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AstralUniversity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = AstralUniversity/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = AstralUniversity/Info.plist; sourceTree = "<group>"; };
-		14D037CAEB7766F587DC0C47 /* Pods-AstralUniversity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AstralUniversity.release.xcconfig"; path = "Target Support Files/Pods-AstralUniversity/Pods-AstralUniversity.release.xcconfig"; sourceTree = "<group>"; };
-		53142AEE5E20237078AEECBF /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = AstralUniversity/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		93DC154A31C0A716ABF27EFA /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-AstralUniversity/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
-		9FC17C1A46A4217E18966740 /* libPods-AstralUniversity.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AstralUniversity.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53092373D0FCB6AD8CABF96C /* Pods-AstralUniversity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AstralUniversity.release.xcconfig"; path = "Target Support Files/Pods-AstralUniversity/Pods-AstralUniversity.release.xcconfig"; sourceTree = "<group>"; };
+		59609C24B62C61AA9A9B6AC2 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-AstralUniversity/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
+		75CFBCAF7ADDF7ECED4B25AA /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = AstralUniversity/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = AstralUniversity/SplashScreen.storyboard; sourceTree = "<group>"; };
+		B243EBFC75D07AF70F6AC674 /* libPods-AstralUniversity.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AstralUniversity.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
-		DC3A139FD133179BFFE29AC0 /* Pods-AstralUniversity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AstralUniversity.debug.xcconfig"; path = "Target Support Files/Pods-AstralUniversity/Pods-AstralUniversity.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		F11748412D0307B40044C1D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = AstralUniversity/AppDelegate.swift; sourceTree = "<group>"; };
 		F11748442D0722820044C1D9 /* AstralUniversity-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AstralUniversity-Bridging-Header.h"; path = "AstralUniversity/AstralUniversity-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -37,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86CAF4B1BFC9C90736D1253E /* libPods-AstralUniversity.a in Frameworks */,
+				4395BBE8DCA6BAB82346A7D3 /* libPods-AstralUniversity.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,26 +53,36 @@
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */,
-				53142AEE5E20237078AEECBF /* PrivacyInfo.xcprivacy */,
+				75CFBCAF7ADDF7ECED4B25AA /* PrivacyInfo.xcprivacy */,
 			);
 			name = AstralUniversity;
 			sourceTree = "<group>";
 		};
-		1E72AAE35401BC1703A67D95 /* AstralUniversity */ = {
+		217404F8C44F282EEE780BA8 /* ExpoModulesProviders */ = {
 			isa = PBXGroup;
 			children = (
-				93DC154A31C0A716ABF27EFA /* ExpoModulesProvider.swift */,
+				8C5A602A3039DF4345AA4115 /* AstralUniversity */,
 			);
-			name = AstralUniversity;
+			name = ExpoModulesProviders;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				9FC17C1A46A4217E18966740 /* libPods-AstralUniversity.a */,
+				B243EBFC75D07AF70F6AC674 /* libPods-AstralUniversity.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		302EA8089EBFC56514AE09A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C075287ED82A0A2A5778372 /* Pods-AstralUniversity.debug.xcconfig */,
+				53092373D0FCB6AD8CABF96C /* Pods-AstralUniversity.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -89,8 +99,8 @@
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				94567372070AE13B6A65C079 /* Pods */,
-				C8D47295500C7A7B2D6DEFD4 /* ExpoModulesProviders */,
+				302EA8089EBFC56514AE09A7 /* Pods */,
+				217404F8C44F282EEE780BA8 /* ExpoModulesProviders */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -105,14 +115,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		94567372070AE13B6A65C079 /* Pods */ = {
+		8C5A602A3039DF4345AA4115 /* AstralUniversity */ = {
 			isa = PBXGroup;
 			children = (
-				DC3A139FD133179BFFE29AC0 /* Pods-AstralUniversity.debug.xcconfig */,
-				14D037CAEB7766F587DC0C47 /* Pods-AstralUniversity.release.xcconfig */,
+				59609C24B62C61AA9A9B6AC2 /* ExpoModulesProvider.swift */,
 			);
-			name = Pods;
-			path = Pods;
+			name = AstralUniversity;
 			sourceTree = "<group>";
 		};
 		BB2F792B24A3F905000567C9 /* Supporting */ = {
@@ -124,14 +132,6 @@
 			path = AstralUniversity/Supporting;
 			sourceTree = "<group>";
 		};
-		C8D47295500C7A7B2D6DEFD4 /* ExpoModulesProviders */ = {
-			isa = PBXGroup;
-			children = (
-				1E72AAE35401BC1703A67D95 /* AstralUniversity */,
-			);
-			name = ExpoModulesProviders;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -140,13 +140,13 @@
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "AstralUniversity" */;
 			buildPhases = (
 				08A4A3CD28434E44B6B9DE2E /* [CP] Check Pods Manifest.lock */,
-				BC3E1B5B4CA2CD6C95CE336C /* [Expo] Configure project */,
+				56A08AB86D8A111199D26A35 /* [Expo] Configure project */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */,
-				E8C23BBDAA81EE6103F13F77 /* [CP] Embed Pods Frameworks */,
+				946F43BE67A3FE64B419D89C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -196,7 +196,7 @@
 				BB2F792D24A3F905000567C9 /* Expo.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */,
-				32DC7374655AA23B71F0C426 /* PrivacyInfo.xcprivacy in Resources */,
+				CBDEC3CA9F84805F5E5CA1AA /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +240,25 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		56A08AB86D8A111199D26A35 /* [Expo] Configure project */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[Expo] Configure project";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This script configures Expo modules and generates the modules provider file.\nbash -l -c \"./Pods/Target\\ Support\\ Files/Pods-AstralUniversity/expo-configure-project.sh\"\n";
+		};
 		800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -276,26 +295,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AstralUniversity/Pods-AstralUniversity-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BC3E1B5B4CA2CD6C95CE336C /* [Expo] Configure project */ = {
-			isa = PBXShellScriptBuildPhase;
-			alwaysOutOfDate = 1;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "[Expo] Configure project";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# This script configures Expo modules and generates the modules provider file.\nbash -l -c \"./Pods/Target\\ Support\\ Files/Pods-AstralUniversity/expo-configure-project.sh\"\n";
-		};
-		E8C23BBDAA81EE6103F13F77 /* [CP] Embed Pods Frameworks */ = {
+		946F43BE67A3FE64B419D89C /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -321,7 +321,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F11748422D0307B40044C1D9 /* AppDelegate.swift in Sources */,
-				10C20B6AE05A0D04FEF3F616 /* ExpoModulesProvider.swift in Sources */,
+				7CF0E6FE21E66A4CFC49FD7C /* ExpoModulesProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,7 +330,7 @@
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DC3A139FD133179BFFE29AC0 /* Pods-AstralUniversity.debug.xcconfig */;
+			baseConfigurationReference = 0C075287ED82A0A2A5778372 /* Pods-AstralUniversity.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -366,7 +366,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 14D037CAEB7766F587DC0C47 /* Pods-AstralUniversity.release.xcconfig */;
+			baseConfigurationReference = 53092373D0FCB6AD8CABF96C /* Pods-AstralUniversity.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
